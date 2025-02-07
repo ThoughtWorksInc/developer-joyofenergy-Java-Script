@@ -1,9 +1,9 @@
 const smartMeters = {};
 
 // smart_meter = {
-//  id: 'id of the smart_meter',
+//  id: 'id of the smart_meter string',
 //  price_plan: plan,
-//  readings: [readings]
+//  readings: [{time: number, reading: number}]
 // }
 
 const save = smart_meter => {
