@@ -1,6 +1,4 @@
-const {
-  generateFakeReadings,
-} = require("../../src/repository/readingsRepository");
+const { generateFakeReadings } = require("../../src/readings");
 
 it("should generate n readings", () => {
   const generatedReadings = generateFakeReadings(3);
