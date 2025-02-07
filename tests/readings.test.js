@@ -1,4 +1,4 @@
-const { generateFakeReadings } = require("../../src/readings");
+const { generateFakeReadings } = require("../src/readings");
 
 it("should generate n readings", () => {
   const generatedReadings = generateFakeReadings(3);

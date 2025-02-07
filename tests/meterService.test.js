@@ -1,5 +1,5 @@
-const { getSmartMeter } = require("../../src/meters");
-const { getReadings, storeReadings } = require("../../src/meters/meterService");
+const { getSmartMeter } = require("../src/meters");
+const { storeReadings } = require("../src/meters/meterService");
 
 it("should store and fetch readings against meter id provided", () => {
   storeReadings("testMeterId", [

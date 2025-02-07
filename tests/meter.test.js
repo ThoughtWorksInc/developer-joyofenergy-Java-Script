@@ -1,4 +1,4 @@
-const { getSmartMeter, save } = require("../../src/meters");
+const { getSmartMeter, save } = require("../src/meters");
 
 it("should save a given smart meter", () => {
   const testMeter = { id: "test_id" };
