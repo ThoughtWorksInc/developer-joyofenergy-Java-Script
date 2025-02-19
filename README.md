@@ -67,8 +67,6 @@ There are two options to run the tests
 
 ### Run the application
 
-Run the application which will be listening on port `8080`. There are two ways to run the application.
-
 - Run the application with the current code
 
   ```console
